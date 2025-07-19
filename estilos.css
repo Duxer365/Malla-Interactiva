@@ -1,0 +1,68 @@
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+#contenedor-principal {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.anio {
+  background: #ffe6f0;
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.anio h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #d0006f;
+  border-bottom: 2px solid #d0006f;
+  padding-bottom: 5px;
+}
+
+.grid-anio {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button.materia {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: pre-line;
+}
+
+.bloqueada {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.desbloqueada {
+  background-color: white;
+  color: black;
+}
+
+.aprobada {
+  background-color: deeppink;
+  color: white;
+}
